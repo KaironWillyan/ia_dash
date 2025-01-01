@@ -175,6 +175,10 @@ def atualizar_graficos(hospital, data_inicio, data_fim):
         fig_vazia = go.Figure().update_layout(title="Erro. Verifique os filtros ou os dados.")
         return fig_vazia, fig_vazia, fig_vazia, fig_vazia, fig_vazia, fig_vazia
 
+
+server = app.server
+
+
 # Executar o servidor
 if __name__ == '__main__':
     app.run_server(debug=True)
