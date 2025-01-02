@@ -4,4 +4,4 @@ plotly
 gunicorn
 datetime
 unidecode
-dados_tratados
+dash_bootstrap_components
