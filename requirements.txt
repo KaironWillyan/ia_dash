@@ -4,3 +4,4 @@ plotly
 gunicorn
 datetime
 unidecode
+dados_tratados
